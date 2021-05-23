@@ -1,0 +1,93 @@
+
+.education-container {
+  margin: 90px 5rem -3.5em 5rem;
+  height: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  padding: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+}
+
+.left-education {
+  padding-right: 100px;
+  width: 250px;
+}
+
+h1 {
+  width: 250px;
+}
+
+.years-container {
+  background:white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  color:black;
+  border-radius: 25px;
+  padding: 2em;
+  max-width: 750px;
+  width: 100%;
+}
+
+.par-spacer {
+  height: 35px;
+}
+
+.year p{
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+.par-wrapper {
+  border-left: 4px black solid;
+  padding-left: 15px;
+}
+
+.par-wrapper p {
+  margin:0;
+  padding:0;
+}
+
+.year-item h5 {
+  margin:0;
+  padding:0;
+  padding-bottom: 1rem;
+  white-space: nowrap;
+}
+
+.bottom-space {
+  height: 80px;
+}
+
+@media (max-width: 768px) {
+  .education-container {
+    flex-direction: column;
+  }
+  .years-container {
+    width: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .education-container {
+    min-width: 200px;
+    margin-top: 56px;
+    margin-right: 0;
+    margin-left: 0;
+    margin-bottom: -5em;
+    border-radius:0;
+    min-height: 100vh;
+    justify-content: star
+  }
+  .years-container {
+    background: transparent;
+    color:white;
+    padding: 0;
+    width: auto;
+  }
+  
+  .bottom-space {
+    height: 0px;
+  }
+}

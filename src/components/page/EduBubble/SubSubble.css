@@ -1,0 +1,26 @@
+.year-wrapper {
+  width : 200px;
+}
+
+.year p{
+  font-weight: 600;
+  width: 200px;
+  white-space: nowrap;
+}
+
+.par-wrapper {
+  border-left: 4px black solid;
+  padding-left: 15px;
+}
+
+.par-wrapper p {
+  margin:0;
+  padding:0;
+}
+
+.year-item h5 {
+  margin:0;
+  padding:0;
+  padding-bottom: 1rem;
+  white-space: nowrap;
+}

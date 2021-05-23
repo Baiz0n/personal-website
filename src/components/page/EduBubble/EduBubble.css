@@ -1,0 +1,25 @@
+.education-container {
+  margin: 90px 5rem -3.5em 5rem;
+  height: 100%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  padding: 1.8rem;
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  border-radius: 25px;
+  color: white;
+}
+
+.left-education {
+  padding-right: 100px;
+  width: 200px;
+}
+
+.sub-bubble__container {
+  background:white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+  color:black;
+  border-radius: 25px;
+  padding: 2em;
+  max-width: 750px;
+}
